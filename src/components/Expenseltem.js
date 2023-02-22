@@ -1,11 +1,10 @@
 import "components/ExpenseItem.css";
+import ExpenseDate from "components/ExpenseDate";
 
 function ExpenseItem({ title, amount, date }) {
   return (
     <div className="expense-item">
-      <div>{`${date.toLocaleString("en-US", {
-        month: "long",
-      })} ${date.getDate()}th ${date.getFullYear()}`}</div>
+      <ExpenseDate date={date} />
       <div className="expense-item__description">
         <h2>{title}</h2>
         <div className="expense-item__price">${amount}</div>
