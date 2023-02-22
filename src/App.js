@@ -1,4 +1,3 @@
-import ExpenseItem from "components/Expenseltem";
 import Expenses from "components/Expenses";
 
 function App() {
@@ -27,14 +26,6 @@ function App() {
     <div className="App">
       <h2>Let's get started!</h2>
       <Expenses items={expenses} />
-      {/* {expenses.map((content, index) => (
-        <ExpenseItem
-          key={content.id}
-          title={content.title}
-          amount={content.amount}
-          date={content.date}
-        />
-      ))} */}
     </div>
   );
 }
