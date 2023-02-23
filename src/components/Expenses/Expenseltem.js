@@ -1,6 +1,6 @@
-import "components/ExpenseItem.css";
-import ExpenseDate from "components/ExpenseDate";
-import Card from "components/Card";
+import "components/Expenses/ExpenseItem.css";
+import ExpenseDate from "components/Expenses/ExpenseDate";
+import Card from "components/UI/Card";
 
 function ExpenseItem({ title, amount, date }) {
   return (

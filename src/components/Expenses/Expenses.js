@@ -1,6 +1,6 @@
-import "components/Expenses.css";
-import ExpenseItem from "components/Expenseltem";
-import Card from "components/Card";
+import "components/Expenses/Expenses.css";
+import ExpenseItem from "components/Expenses/Expenseltem";
+import Card from "components/UI/Card";
 
 function Expenses({ items }) {
   return (
