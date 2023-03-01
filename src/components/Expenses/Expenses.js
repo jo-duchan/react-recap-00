@@ -19,12 +19,12 @@ function Expenses({ items }) {
           selected={filteredYear}
           onChangeFilter={filterChangeHandler}
         />
-        {items.map((content, index) => (
+        {items.map((expense) => (
           <ExpenseItem
-            key={content.id}
-            title={content.title}
-            amount={content.amount}
-            date={content.date}
+            key={expense.id}
+            title={expense.title}
+            amount={expense.amount}
+            date={expense.date}
           />
         ))}
       </Card>
